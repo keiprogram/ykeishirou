@@ -11,7 +11,7 @@ weight=st.number_input("体重(kg)を入力",min_value=1)
 height=st.number_input("身長(cm)を入力",min_value=1)
 
 
-if st.button("計算")
-st.write("あなたのBMIは"　"+str (w/h/100)**2")}
+if st.button("計算:")
+    st.write("あなたのBMIは"+str(w/h/100)**2)
 
 
